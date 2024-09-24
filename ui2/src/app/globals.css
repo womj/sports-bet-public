@@ -1,0 +1,70 @@
+body {
+  background-color: #000;
+  max-width: 100vw;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  color-scheme: dark;
+}
+
+td, th {
+  border-bottom: 1px solid rgb(0, 167, 95);
+  padding: 8px;
+}
+
+td {
+  text-align: center;
+}
+
+tr.highlight {
+  background-color: rgb(46, 157, 180);
+}
+td.is-red {
+  color: red;
+}
+
+td.highlight {
+  background-color: rgb(82, 46, 180);
+}
+
+td.highlight-max {
+  background-color:rgb(173, 46, 180);
+}
+
+table {
+  border-collapse: collapse;
+  position: relative;
+  overflow: auto;
+}
+
+#home {
+  width: 100%;
+  overflow-x: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column; /* Added this line */
+}
+
+#gamestable {
+  display: block;
+}
+
+#games-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#header {
+  width: 100%;
+  overflow-x: auto;
+  display: flex;
+  justify-content: center;
+}
